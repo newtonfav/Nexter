@@ -11,6 +11,7 @@
   @extend %heading;
   font-size: 4rem;
   font-style: italic;
+  line-height: 1;
 
   &--light {
     color: $color-grey-light-1;
@@ -55,4 +56,18 @@
   &:hover {
     background-color: $color-primary-dark;
   }
+}
+
+.mg-sm {
+  margin-bottom: 2rem;
+}
+
+.mg-md {
+  margin-bottom: 3rem;
+}
+.mg-lg {
+  margin-bottom: 4rem;
+}
+.mg-hg {
+  margin-bottom: 6rem;
 }

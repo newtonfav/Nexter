@@ -26,7 +26,8 @@ body {
 
 .heading-2 {
   font-size: 4rem;
-  font-style: italic; }
+  font-style: italic;
+  line-height: 1; }
   .heading-2--light {
     color: #f9f7f6; }
   .heading-2--dark {
@@ -56,6 +57,18 @@ body {
   transition: all 0.2s; }
   .btn:hover {
     background-color: #b28451; }
+
+.mg-sm {
+  margin-bottom: 2rem; }
+
+.mg-md {
+  margin-bottom: 3rem; }
+
+.mg-lg {
+  margin-bottom: 4rem; }
+
+.mg-hg {
+  margin-bottom: 6rem; }
 
 .sidebar {
   background-color: #c69963;
@@ -93,12 +106,20 @@ body {
 
 .story__pictures {
   background-color: #c69963;
-  grid-column: full-start / col-end 4; }
+  grid-column: full-start / col-end 5; }
 
 .story__content {
   background-color: #f9f7f6;
-  grid-column: col-start 5 / full-end;
-  padding: 6rem 12rem; }
+  grid-column: col-start 6 / full-end;
+  padding: 6rem 8vw;
+  display: grid;
+  align-content: center;
+  justify-items: start; }
+
+.story__text {
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-bottom: 3rem; }
 
 .homes {
   background-color: #101d2c;
